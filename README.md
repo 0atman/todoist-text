@@ -1,4 +1,4 @@
-Deploy this with docker, then hit `hostname/[todoist api key]` to get a plain-text form of your todoist tasks
+Deploy this with docker, then hit `http://hostname/[todoist api key]` to get a plain-text form of your todoist tasks
 
 ## CMD
 
