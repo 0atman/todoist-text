@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/<key>")
 def hello(key):
     api = todoist.TodoistAPI(key)
     api.sync()
