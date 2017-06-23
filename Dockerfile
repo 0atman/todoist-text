@@ -6,3 +6,4 @@ WORKDIR /code
 RUN pip install Flask
 RUN pip install todoist-python
 ADD . /code/
+RUN flask run -h 0.0.0.0
