@@ -1,5 +1,7 @@
 Deploy this with docker, then hit `http://hostname/[todoist api key]` to get a plain-text form of your todoist tasks (currently: all tasks with a due date, arranged in databetical order)
 
+This repo auto-builds the docker image [0atman/todoist-text](https://hub.docker.com/r/0atman/todoist-text/)
+
 ## CMD
 
 ```shell
