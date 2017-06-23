@@ -3,7 +3,7 @@ Deploy this with docker, then hit `http://hostname/[todoist api key]` to get a p
 ## CMD
 
 ```shell
-$ docker run -p5000:5000/tcp 0atman/todoist-text
+$ docker run -p5000:5000 0atman/todoist-text
 ```
 
 ## Expose
