@@ -5,10 +5,6 @@ Deploy this with docker, then hit `http://hostname/[todoist api key]` to get a p
 ```shell
 $ docker run -p5000:5000 0atman/todoist-text
 ```
-
-## Expose
- - Port 5000
-
 # Requirements
 
 100MB disk, 30MB ram
