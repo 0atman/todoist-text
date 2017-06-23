@@ -3,7 +3,7 @@ Deploy this with docker, then hit `hostname/[todoist api key]` to get a plain-te
 ## CMD
 
 ```shell
-$ flask run -h 0.0.0.0
+$ docker run -p5000:5000/tcp -e "FLASK_APP=todo.py" 2cffa7a68f98 flask run -h 0.0.0.0
 ```
 
 ## Expose
