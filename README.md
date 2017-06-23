@@ -9,10 +9,6 @@ $ docker run -p5000:5000/tcp -e "FLASK_APP=todo.py" 0atman/todoist-text flask ru
 ## Expose
  - Port 5000
 
-## Env
-
- - `FLASK_APP=todo.py`
-
 # Requirements
 
 100MB disk, 30MB ram
