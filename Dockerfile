@@ -5,5 +5,6 @@ RUN mkdir /code
 WORKDIR /code
 RUN pip install Flask
 RUN pip install todoist-python
+RUN pip install arrow
 ADD . /code/
-RUN flask run -h 0.0.0.0
+CMD flask run -h 0.0.0.0
