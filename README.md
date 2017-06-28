@@ -14,4 +14,3 @@ $ docker run -p5000:5000 0atman/todoist-text
 Here's what my RAM usage looks like after hitting the endpoint a few times:
 
 ![2017-06-23-151735_635x221_scrot](https://user-images.githubusercontent.com/114097/27486197-b9e2c918-5827-11e7-835c-43f1a1473269.png)
-
